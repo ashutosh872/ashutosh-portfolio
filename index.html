@@ -2,219 +2,250 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Ashutosh Kumar | Senior Frontend / UI Engineer</title>
 
-  <!-- SEO -->
   <meta name="description" content="Senior Frontend / UI Engineer with 8+ years of experience delivering enterprise-scale, accessible, high-performance web interfaces for Samsung SDS, Cisco, and global clients." />
-  <meta name="keywords" content="Senior Frontend Engineer, UI Engineer, Accessibility, WCAG, Samsung SDS, Cisco, HTML, CSS, JavaScript" />
   <meta name="author" content="Ashutosh Kumar" />
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
-<!-- Sticky Navigation -->
-<nav class="nav" role="navigation" aria-label="Primary">
-  <div class="nav-container">
-    <span class="logo">Ashutosh Kumar</span>
+<nav role="navigation" aria-label="Primary">
+  <div class="container nav-inner">
+    <strong>Ashutosh Kumar</strong>
     <ul>
       <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><button id="themeToggle" class="toggle">Theme</button></li>
+      <li><button id="themeToggle" class="toggle" aria-pressed="false">Change Theme</button></li>
     </ul>
   </div>
 </nav>
 
-<header id="about" class="section" role="banner">
-  <div class="top">
-    <div>
-      <h1>Ashutosh Kumar</h1>
-      <h2>Senior Frontend / UI Engineer</h2>
+<header id="about" role="banner">
+  <div class="container flow">
+    <h1>Ashutosh Kumar</h1>
+    <h2>Senior Frontend / UI Engineer</h2>
+
+    <p>
+      Senior Frontend / UI Engineer with 8+ years of progressive experience delivering
+      enterprise-scale, accessible, and high-performance web interfaces for global clients
+      including Samsung SDS and Cisco. Demonstrated growth from third-party contract roles
+      to direct client payroll, reflecting strong ownership, delivery quality, and stakeholder trust.
+    </p>
+
+    <p>
+      Expert in WCAG 2.1 / 2.2 accessibility, semantic HTML, responsive UI systems,
+      and design-to-code workflows. Known for improving delivery speed and UI consistency
+      using AI-assisted development while maintaining enterprise-quality standards
+      in Agile environments.
+    </p>
+
+    <div class="cta">
+      <a class="btn" href="#contact">Contact</a>
+      <a class="btn outline" href="assets/resume/Ashutosh Kumar - Senior Frontend _ UI Engineer .pdf" download>
+        Download Resume
+      </a>
     </div>
-    <button class="toggle" id="themeToggle" aria-pressed="false" aria-label="Toggle dark and light theme">Change Theme</button>
-  </div>
-
-  <div class="meta">
-    New Delhi, India · +91 9310681373 · <a href="mailto:kumar.ashu872@gmail.com">kumar.ashu872@gmail.com</a><br />
-    <a href="https://linkedin.com/in/kumarashu872" target="_blank">LinkedIn</a> ·
-    <a href="https://behance.net/ashutoshkumar872" target="_blank">Behance</a>
-  </div>
-
-  <p>
-    Senior Frontend / UI Engineer with 8+ years of progressive experience delivering enterprise-scale,
-    accessible, and high-performance web interfaces for global clients including Samsung SDS and Cisco.
-    Demonstrated growth from third-party contract roles to direct client payroll, reflecting strong ownership,
-    delivery quality, and stakeholder trust.
-  </p>
-
-  <p>
-    Expert in WCAG 2.1 / 2.2 accessibility, semantic HTML, responsive UI systems, and design-to-code
-    workflows. Known for improving delivery speed and UI consistency using AI-assisted development,
-    while maintaining enterprise quality standards in Agile environments.
-  </p>
-
-  <div class="cta">
-    <a class="btn" href="#contact">Contact</a>
-    <a class="btn outline" href="assets/resume/Ashutosh Kumar - Senior Frontend _ UI Engineer .pdf" download>
-      Download Resume
-    </a>
   </div>
 </header>
 
-<!-- Accessibility Statement -->
-<p class="meta" style="max-width:1100px;margin:0 auto 2rem;padding:0 1.5rem;">
-  Accessibility-first portfolio built with semantic HTML, WCAG 2.1/2.2 considerations, keyboard navigation support, and screen-reader friendly landmarks.
+<p class="container accessibility-note">
+  Accessibility-first portfolio built with semantic HTML, WCAG 2.1/2.2 considerations,
+  keyboard navigation support, and screen-reader-friendly landmarks.
 </p>
 
-<section role="region" aria-labelledby="impact-heading">
-  <h3 id="impact-heading">Impact Highlights</h3>
-  <div class="grid">
-    <div class="card">Improved enterprise UI delivery accuracy, earning a <strong>97/100 performance rating</strong> on Samsung AGM platform</div>
-    <div class="card">Reduced UI rework and turnaround time by <strong>~25–30%</strong> through reusable component patterns and clean CSS architecture</div>
-    <div class="card">Supported <strong>10+ live websites</strong> and enterprise platforms across startups, NGOs, and Fortune-scale clients</div>
-  </div>
-</section>
-
+<!-- IMPACT -->
 <section>
-  <h3>Core Competencies</h3>
-  <div class="grid">
-    <div class="card"><strong>Frontend Engineering</strong><br>HTML5, CSS3, SCSS, JavaScript, jQuery, Bootstrap, CSS Grid, Flexbox, Responsive Web Design, Cross-Browser Compatibility, Pixel-Perfect UI</div>
-    <div class="card"><strong>Accessibility & Compliance</strong><br>WCAG 2.1 / 2.2, Section 508, Semantic HTML, Accessible Forms & Components</div>
-    <div class="card"><strong>Frameworks & UI Systems</strong><br>Angular Material UI, Component-Based Architecture, Design Systems</div>
-    <div class="card"><strong>Design Collaboration</strong><br>Figma, Zeplin, Photoshop, InVision, Wireframing, PSD-to-HTML</div>
-    <div class="card"><strong>Performance & SEO</strong><br>Web Performance Optimization, SEO-Friendly Markup, Core Web Vitals Awareness</div>
-    <div class="card"><strong>AI & Workflow</strong><br>Cursor Editor, AI-based UI refactoring, productivity optimization, Git, Jira, ClickUp, VS Code, Agile / Scrum</div>
+  <div class="container flow">
+    <h3>Impact Highlights</h3>
+    <div class="grid">
+      <div class="card">97/100 performance rating on Samsung AGM enterprise platform</div>
+      <div class="card">25–30% reduction in UI rework through reusable components and clean CSS architecture</div>
+      <div class="card">10+ live websites and enterprise platforms delivered across startups, NGOs, and Fortune-scale clients</div>
+    </div>
   </div>
 </section>
 
-<section id="experience" role="region" aria-labelledby="experience-heading">
-  <h3>Professional Experience</h3>
+<!-- SKILLS -->
+<section id="skills">
+  <div class="container flow">
+    <h3>Core Competencies</h3>
 
-  <div class="card">
-    <h4>Frontend Developer (Contract – Full Time)</h4>
-    <p class="meta">Wondrfly · Remote | Sep 2025 – Present</p>
-    <ul>
-      <li>Frontend UI development for customer-facing and internal platforms</li>
-      <li>Translate Figma designs into pixel-perfect, responsive, and accessible UI using HTML, CSS/SCSS, and JavaScript</li>
-      <li>Build reusable UI components and scalable style architecture, reducing future development effort</li>
-      <li>Ensure WCAG-compliant UI, cross-browser compatibility, and performance best practices</li>
-      <li>Apply AI-assisted tools to accelerate implementation and refactoring without compromising quality</li>
-      <li>Collaborate with designers, product managers, and developers in Agile/Scrum cycles</li>
-    </ul>
-  </div>
+    <div class="grid">
+      <div class="card">
+        <strong>Frontend Engineering</strong><br>
+        HTML5, CSS3, SCSS, JavaScript, jQuery, Bootstrap, CSS Grid, Flexbox,
+        Responsive Web Design, Cross-Browser Compatibility, Pixel-Perfect UI
+      </div>
 
-  <div class="card">
-    <h4>Frontend Developer (Freelance)</h4>
-    <p class="meta">Multiple Clients | Mar 2023 – Aug 2025</p>
-    <p class="meta">Clients: Tripknock, Tripomate, Urja for Women</p>
-    <ul>
-      <li>Delivered end-to-end frontend solutions for startups, NGOs, and business websites</li>
-      <li>Owned requirement gathering, UI strategy, development, and post-launch support</li>
-      <li>Built responsive websites from scratch and converted Figma/PSD to production-ready UI</li>
-      <li>Developed and customized WordPress themes and landing pages</li>
-      <li>Implemented SEO-friendly, accessibility-aware markup, resolving UI and responsiveness issues</li>
-      <li>Balanced multiple projects while maintaining long-term scalability and maintainability</li>
-    </ul>
-  </div>
+      <div class="card">
+        <strong>Accessibility & Compliance</strong><br>
+        WCAG 2.1 / 2.2, Section 508, Semantic HTML,
+        Accessible Forms & Components
+      </div>
 
-  <div class="card">
-    <h4>Assistant Manager – Web Publisher (On-Role)</h4>
-    <p class="meta">Samsung SDS · Client: Samsung HQ (Korea) | Gurugram | Sep 2022 – Mar 2023</p>
-    <ul>
-      <li>Managed enterprise web publishing for internal Samsung platforms</li>
-      <li>Worked with Samsung HQ UI frameworks (Lego, Opus, Dev UI)</li>
-      <li>Ensured enterprise-grade responsiveness, accessibility compliance, and content accuracy</li>
-      <li>Collaborated directly with global HQ stakeholders in Agile/Scrum environments</li>
-      <li>Achieved 97/100 performance rating for quality, accuracy, and on-time delivery</li>
-    </ul>
-  </div>
+      <div class="card">
+        <strong>Frameworks & UI Systems</strong><br>
+        Angular Material UI, Component-Based Architecture, Enterprise Design Systems
+      </div>
 
-  <div class="card">
-    <h4>Web Publisher & Designer (Third-Party → Client Transition Path)</h4>
-    <p class="meta">Experience Commerce (Cheil Group) · Client: Samsung SDS | Gurugram | Aug 2021 – Oct 2022</p>
-    <ul>
-      <li>Supported Samsung SDS platforms as a third-party resource, delivering consistent high-quality UI output</li>
-      <li>Published enterprise pages using Zeplin designs and structured requirement documents (SRDs)</li>
-      <li>Ensured responsive, cross-browser-compatible UI across internal systems</li>
-      <li>Conducted UI quality checks and code reviews to maintain clean, reusable frontend code</li>
-      <li>Recognized for performance and reliability, leading to direct on-role transition at Samsung SDS</li>
-    </ul>
-  </div>
+      <div class="card">
+        <strong>Design Collaboration</strong><br>
+        Figma, Zeplin, Photoshop, InVision, Wireframing, PSD-to-HTML
+      </div>
 
-  <div class="card">
-    <h4>UI/UX & Frontend Developer</h4>
-    <p class="meta">Mindrops · New Delhi | Aug 2020 – Aug 2021</p>
-    <ul>
-      <li>Designed and developed responsive page layouts aligned with business requirements</li>
-      <li>Converted PSD to HTML with WCAG and Section 508 compliance</li>
-      <li>Improved SEO structure through metadata optimization and semantic markup</li>
-      <li>Resolved browser and device-specific UI issues</li>
-      <li>Built reusable UI components and HTML email templates</li>
-    </ul>
-  </div>
+      <div class="card">
+        <strong>Performance & SEO</strong><br>
+        Web Performance Optimization, SEO-Friendly Markup,
+        Core Web Vitals Awareness
+      </div>
 
-  <div class="card">
-    <h4>Associate Software Engineer</h4>
-    <p class="meta">Infinity Labs India · Client: Cisco | Noida | Dec 2018 – Jul 2020</p>
-    <ul>
-      <li>Worked on Cisco BPA (Business Process Automation) Portal</li>
-      <li>Collaborated with Cisco enterprise teams on UI delivery and enhancements</li>
-      <li>Created wireframes, prototypes, and production UI screens</li>
-      <li>Published UI using HTML, CSS, Bootstrap, Angular Material UI</li>
-      <li>Contributed to Cisco SD-WAN UI screens and branding assets</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h4>Frontend Developer</h4>
-    <p class="meta">Codifier Technologies · Gurugram | Nov 2016 – Jun 2018</p>
-    <ul>
-      <li>Developed WordPress websites and responsive UI from PSD designs</li>
-      <li>Built cross-client HTML email templates</li>
-      <li>Supported multiple client projects with consistent on-time delivery</li>
-    </ul>
+      <div class="card">
+        <strong>Tools & AI Workflow</strong><br>
+        Git, Jira, ClickUp, VS Code, Agile / Scrum,
+        AI-assisted UI development (Cursor Editor)
+      </div>
+    </div>
   </div>
 </section>
 
-<section id="projects" role="region" aria-labelledby="projects-heading">
-  <h3>Key Projects & Clients</h3>
-  <div class="grid">
-    <div class="card"><strong>Enterprise:</strong><br>Samsung SDS (Metadata & AGM Platforms), Cisco (BPA Portal, SD-WAN)</div>
-    <div class="card"><strong>Live Websites:</strong><br>Tripknock, Tripomate, Mindrops, Toplad, MSP Asia, Address Home, EZR, Urja for Women, BuddhaTrail, Wondrfly</div>
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container flow">
+    <h3>Professional Experience</h3>
+
+    <div class="card">
+      <strong>Frontend Developer (Contract – Full Time) · Wondrfly</strong>
+      <p>Remote | Sep 2025 – Present</p>
+      <ul>
+        <li>Frontend UI development for customer-facing and internal platforms</li>
+        <li>Translate Figma designs into pixel-perfect, responsive, and accessible UI</li>
+        <li>Build reusable UI components and scalable CSS architecture</li>
+        <li>Ensure WCAG compliance, cross-browser compatibility, and performance best practices</li>
+        <li>Apply AI-assisted tools to accelerate development without compromising quality</li>
+        <li>Collaborate with designers, product managers, and developers in Agile/Scrum cycles</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong>Frontend Developer (Freelance)</strong>
+      <p>Multiple Clients | Mar 2023 – Aug 2025</p>
+      <ul>
+        <li>Delivered end-to-end frontend solutions for startups, NGOs, and business websites</li>
+        <li>Built responsive websites from scratch and converted Figma/PSD to production-ready UI</li>
+        <li>Customized WordPress themes and landing pages</li>
+        <li>Implemented SEO-friendly and accessibility-aware markup</li>
+        <li>Managed multiple projects while ensuring maintainability and scalability</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong>Assistant Manager – Web Publisher · Samsung SDS</strong>
+      <p>Gurugram | Sep 2022 – Mar 2023</p>
+      <ul>
+        <li>Enterprise web publishing for Samsung internal platforms</li>
+        <li>Worked with Lego, Opus, and Dev UI frameworks</li>
+        <li>Collaborated directly with Samsung HQ stakeholders</li>
+        <li>Ensured enterprise-grade accessibility, responsiveness, and accuracy</li>
+        <li>Achieved 97/100 performance rating for quality and delivery</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong>Web Publisher & Designer · Experience Commerce (Cheil Group)</strong>
+      <p>Aug 2021 – Oct 2022</p>
+      <ul>
+        <li>Third-party support for Samsung SDS enterprise platforms</li>
+        <li>Published UI using Zeplin designs and structured requirement documents</li>
+        <li>Ensured responsive and cross-browser-compatible UI</li>
+        <li>Recognized for performance leading to direct on-role transition</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong>UI/UX & Frontend Developer · Mindrops</strong>
+      <p>Aug 2020 – Aug 2021</p>
+      <ul>
+        <li>PSD-to-HTML with WCAG and Section 508 compliance</li>
+        <li>SEO improvements using semantic markup</li>
+        <li>Built reusable UI components and HTML email templates</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong>Associate Software Engineer · Infinity Labs India (Client: Cisco)</strong>
+      <p>Dec 2018 – Jul 2020</p>
+      <ul>
+        <li>Worked on Cisco BPA (Business Process Automation) Portal</li>
+        <li>Angular Material and Bootstrap UI development</li>
+        <li>Created wireframes, prototypes, and production UI screens</li>
+        <li>Contributed to Cisco SD-WAN UI screens</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <strong>Frontend Developer · Codifier Technologies</strong>
+      <p>Nov 2016 – Jun 2018</p>
+      <ul>
+        <li>Developed WordPress websites from PSD designs</li>
+        <li>Built cross-client HTML email templates</li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section role="region" aria-labelledby="education-heading">
-  <h3 id="education-heading">Education</h3>
-  <div class="grid">
-    <div class="card">Master of Computer Applications (MCA)<br>Guru Gobind Singh Indraprastha University | 2013 – 2016</div>
-    <div class="card">Bachelor of Computer Applications (BCA)<br>Sikkim Manipal University | 2010 – 2013</div>
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="container flow">
+    <h3>Key Projects & Clients</h3>
+    <div class="grid">
+      <div class="card">
+        <strong>Enterprise</strong><br>
+        Samsung SDS (Metadata & AGM Platforms), Cisco (BPA Portal, SD-WAN)
+      </div>
+      <div class="card">
+        <strong>Live Websites</strong><br>
+        Tripknock, Tripomate, Mindrops, Toplad, MSP Asia,
+        Address Home, EZR, Urja for Women, BuddhaTrail, Wondrfly
+      </div>
+    </div>
   </div>
 </section>
 
-<section role="region" aria-labelledby="awards-heading">
-  <h3 id="awards-heading">Awards & Career Highlights</h3>
-  <div class="grid">
-    <div class="card">97/100 performance rating for AGM platform delivery at Samsung SDS</div>
-    <div class="card">Career progression from third-party vendor to direct client payroll, demonstrating delivery excellence and stakeholder trust</div>
-    <div class="card">Consistent involvement in high-visibility enterprise platforms and global client environments</div>
+<!-- EDUCATION -->
+<section id="education">
+  <div class="container flow">
+    <h3>Education</h3>
+    <div class="grid">
+      <div class="card">
+        Master of Computer Applications (MCA)<br>
+        Guru Gobind Singh Indraprastha University (2013 – 2016)
+      </div>
+      <div class="card">
+        Bachelor of Computer Applications (BCA)<br>
+        Sikkim Manipal University (2010 – 2013)
+      </div>
+    </div>
   </div>
 </section>
 
-<section id="contact" role="region" aria-labelledby="contact-heading">
-  <h3>Contact</h3>
-  <div class="card">
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container flow">
+    <h3>Contact</h3>
     <p>Email: <a href="mailto:kumar.ashu872@gmail.com">kumar.ashu872@gmail.com</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/kumarashu872" target="_blank">linkedin.com/in/kumarashu872</a></p>
   </div>
 </section>
 
 <footer role="contentinfo">
-  © 2026 Ashutosh Kumar · Senior Frontend / UI Engineer
-</footer>
   © 2026 Ashutosh Kumar · Senior Frontend / UI Engineer
 </footer>
 
